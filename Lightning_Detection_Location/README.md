@@ -1,3 +1,7 @@
+
+# Lightning_Detection_Location
+All data is avaiable at [DOI 10.5281/zenodo.13337026](https://zenodo.org/doi/10.5281/zenodo.13337025)
+
 A Graph Neural Network Based Workflow for Real-time Lightning Location with Continuous Waveforms
 
 这个项目由四个部分构成，Datasets文件对应生成对应工区的闪电数据集，Event_detection文件对应从连续波形中检测闪电波形片段，GNNs文件对应我们使用的闪电定位算法，TR文件对应我们用于对比我们效果的传统算法。
@@ -19,6 +23,7 @@ GNNs：
 TR：
     TimeReversal_gpu_val.py：使用检测到的闪电波形片段，并采用TR算法进行定位
     plot_TR_result.py：TR定位结果可视化（排除不可靠事件）
+
     
 
 
